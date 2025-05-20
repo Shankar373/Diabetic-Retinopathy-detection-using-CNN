@@ -1,0 +1,11 @@
+image_id,label
+sample/10_left.jpeg,0
+sample/10_right.jpeg,0
+sample/13_left.jpeg,1
+sample/13_right.jpeg,1
+sample/15_left.jpeg,2
+sample/15_right.jpeg,2
+sample/16_left.jpeg,3
+sample/16_right.jpeg,3
+sample/17_left.jpeg,4
+sample/17_right.jpeg,4

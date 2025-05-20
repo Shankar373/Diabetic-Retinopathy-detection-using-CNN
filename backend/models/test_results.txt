@@ -1,0 +1,14 @@
+Test Accuracy: 80.00%
+
+Classification Report:
+                  precision    recall  f1-score   support
+
+           No DR       0.67      1.00      0.80         2
+         Mild DR       0.67      1.00      0.80         2
+     Moderate DR       1.00      1.00      1.00         2
+       Severe DR       1.00      1.00      1.00         2
+Proliferative DR       0.00      0.00      0.00         2
+
+        accuracy                           0.80        10
+       macro avg       0.67      0.80      0.72        10
+    weighted avg       0.67      0.80      0.72        10

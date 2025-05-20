@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/styles/results.css"],"sourcesContent":["/* ...existing styles... */\n\n.camera-switch {\n  position: absolute;\n  right: -12px;\n  top: 50%;\n  transform: translateY(-50%);\n}\n"],"names":[],"mappings":"AAEA"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

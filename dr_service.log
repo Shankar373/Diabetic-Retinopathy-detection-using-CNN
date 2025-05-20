@@ -1,0 +1,33 @@
+2025-01-22 09:40:02,293 - ERROR - Error loading model: Model file not found at backend/models/best_model.pth
+2025-01-22 09:40:02,294 - INFO - Using device: cuda
+2025-01-22 09:40:02,297 - ERROR - Training failed: 'image_path'
+2025-01-22 09:40:25,161 - ERROR - Error loading model: Model file not found at backend/models/best_model.pth
+2025-01-22 09:40:25,163 - INFO - Using device: cuda
+2025-01-22 09:40:25,165 - ERROR - Training failed: 'image_path'
+2025-01-22 09:40:40,022 - ERROR - Error loading model: Model file not found at backend/models/best_model.pth
+2025-01-22 09:40:40,023 - INFO - Using device: cuda
+2025-01-22 09:40:40,062 - ERROR - Training failed: '14880_right.jpeg'
+2025-01-22 09:41:03,551 - ERROR - Error loading model: Model file not found at backend/models/best_model.pth
+2025-01-22 09:41:03,553 - INFO - Using device: cuda
+2025-01-22 09:41:03,593 - ERROR - Training failed: '14880_right.jpeg'
+2025-01-22 09:41:22,845 - ERROR - Error loading model: Model file not found at backend/models/best_model.pth
+2025-01-22 09:41:22,847 - INFO - Using device: cuda
+2025-01-22 09:41:22,895 - ERROR - Training failed: '14880_right.jpeg'
+2025-01-22 09:41:38,799 - ERROR - Error loading model: Model file not found at backend/models/best_model.pth
+2025-01-22 09:41:38,800 - INFO - Using device: cuda
+2025-01-22 09:44:51,786 - ERROR - Training failed: Caught IndexError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/kasinadhsarma/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "/home/kasinadhsarma/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 50, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/home/kasinadhsarma/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/kasinadhsarma/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/home/kasinadhsarma/dr-detection/backend/utils.py", line 57, in __getitem__
+    label = self.labels[idx]
+IndexError: list index out of range
+
+2025-01-22 14:16:41,854 - INFO - Loading PyTorch model...
+2025-01-22 14:16:44,046 - ERROR - Error loading model: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 0 has a total capacity of 3.81 GiB of which 38.00 MiB is free. Process 86200 has 294.00 MiB memory in use. Process 156907 has 2.59 GiB memory in use. Including non-PyTorch memory, this process has 900.00 MiB memory in use. Of the allocated memory 832.86 MiB is allocated by PyTorch, and 17.14 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,10 @@
+/* [project]/app/styles/results.css [app-client] (css) */
+.camera-switch {
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/*# sourceMappingURL=app_styles_results_811ace.css.map*/

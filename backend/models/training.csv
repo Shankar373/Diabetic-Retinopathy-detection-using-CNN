@@ -1,0 +1,11 @@
+image_id,label
+train/10_left.jpeg,0
+train/10_right.jpeg,0
+train/13_left.jpeg,1
+train/13_right.jpeg,1
+train/15_left.jpeg,2
+train/15_right.jpeg,2
+train/16_left.jpeg,3
+train/16_right.jpeg,3
+train/17_left.jpeg,4
+train/17_right.jpeg,4
